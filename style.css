@@ -14,9 +14,19 @@ h1{
     height: 100%;
     position: right top;
 }
-.flexible-comtainer{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
     
+    
+}
+.experiance-item{
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
     
 }
 .hire-me-batton{
@@ -29,6 +39,19 @@ h1{
 .top-banner{background-image: url(images/left-top.png);
             background-repeat: no-repeat;
 
+}
+#border1{border-left: 7px solid;
+         border-image:linear-gradient(orange,tomato);
+         border-image-slice: 1;
+
+}
+#border2{border-left: 7px solid;
+         border-image:linear-gradient(blue,cyan);
+         border-image-slice: 1;
+
+}
+footer p {
+    text-align: center;
 }
 h2{font-size: 30px;}
 .name-color{
