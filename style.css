@@ -19,11 +19,18 @@ h1{
     
     
 }
+.hire-me-batton{
+    color: antiquewhite;
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
 .top-banner{background-image: url(images/left-top.png);
             background-repeat: no-repeat;
 
 }
-h2{font-size: 40px;}
+h2{font-size: 30px;}
 .name-color{
     color: orange;
 }
